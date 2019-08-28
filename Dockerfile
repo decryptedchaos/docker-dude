@@ -1,6 +1,6 @@
 FROM phusion/baseimage
 
-ENV VERSION 4.0beta3
+ENV VERSION 6.45.5
 
 ENV DEBIAN_FRONTEND noninteractive
 COPY installer/dude-install-$VERSION.exe /
